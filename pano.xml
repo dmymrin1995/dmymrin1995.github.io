@@ -127,13 +127,13 @@
       </polyhotspot>
     </hotspots>
     <media>
-      <image pan="-79.910" fov="9.850" tilt="-10.660" roty="-30.000" width="716" rotz="0.000" clickmode="4" id="Element01" stretch="0.500" height="947" handcursor="0" rotx="0.000">
+      <image pan="-79.910" fov="9.850" tilt="-10.660" roty="-30.000" width="500" rotz="0.000" clickmode="4" id="Element01" stretch="0.500" height="300" handcursor="0" rotx="0.000">
         <source url="media/VR.jpg"/>
       </image>
-      <image pan="-22.260" fov="12.030" tilt="-11.980" roty="29.000" width="716" rotz="5.000" clickmode="4" id="Element02" stretch="0.500" height="947" handcursor="0" rotx="-9.000">
+      <image pan="-22.260" fov="12.030" tilt="-11.980" roty="29.000" width="500" rotz="5.000" clickmode="4" id="Element02" stretch="0.500" height="300" handcursor="0" rotx="-9.000">
         <source url="media/Пром диз.jpg"/>
       </image>
-      <image pan="-103.360" fov="6.970" tilt="-30.100" roty="0.000" width="716" rotz="0.000" clickmode="4" id="Element03" stretch="0.500" height="947" handcursor="0" rotx="0.000">
+      <image pan="-103.360" fov="6.970" tilt="-30.100" roty="0.000" width="500" rotz="0.000" clickmode="4" id="Element03" stretch="0.500" height="300" handcursor="0" rotx="0.000">
         <source url="media/Планшет.jpg"/>
       </image>
     </media>
