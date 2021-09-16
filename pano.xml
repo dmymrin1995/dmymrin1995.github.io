@@ -75,7 +75,7 @@
       </polyhotspot>
     </hotspots>
     <media>
-      <image rotz="3.000" handcursor="0" stretch="1.000" width="756" clickmode="0" fov="7.083" tilt="-23.130" rotx="15.000" id="Element01" pan="-135.160" roty="5.000" height="949">
+      <image rotz="3.000" handcursor="0" stretch="1.000" width="756" clickmode="4" fov="7.080" tilt="-23.130" rotx="15.000" id="Element01" pan="-135.160" roty="5.000" height="949">
         <source url="media/Бейдж.jpg"/>
       </image>
     </media>
