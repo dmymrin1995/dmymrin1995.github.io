@@ -1,175 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.6" start="node4" apprev="17950">
+<tour start="node4" appversion="6.1.6" apprev="17950">
   <panorama id="node4">
-    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="480" overlap="1" levelingpitch="0" height="480" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level width="480" height="480" predecode="1" preload="1"/>
+    <input overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" height="480" leveltilesize="510" levelingpitch="0" width="480" levelingroll="0">
+      <level preload="1" predecode="1" height="480" width="480"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="0" fov="90" tilt="0" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="90" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="270"/>
+      <start fov="90" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max scaletofit="1" fov="90" tilt="90" fovstereographic="270" pan="360" fovfisheye="360"/>
     </view>
-    <userdata author="" datetime="2021:08:30 14:42:24" source="" customnodeid="" title="thumbnail" description="" longitude="" copyright="" info="" latitude="" tags="" comment="" nodeid="node4" heading="0"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" enabled="0" width="180" textcolor="0x000000" backgroundcolor="0xffffff" border="1" textalpha="1" height="20" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" background="1" borderradius="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <polyhotspot title="" description="" id="Poly01" url="{node5}" target="0.0/0.0/90.0">
+    <userdata title="thumbnail" latitude="" description="" copyright="" nodeid="node4" customnodeid="" longitude="" info="" tags="" author="" datetime="2021:08:30 14:42:24" source="" comment="" heading="0"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" wordwrap="1" height="20" border="1" textcolor="0x000000" backgroundcolor="0xffffff" enabled="0" width="180" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <polyhotspot title="" id="Poly01" url="{node5}" description="" target="0.0/0.0/90.0">
         <polystring>-25.7429/-30.5375|-25.3408/10.5824|-33.3853/13.6058|-33.7878/-36.9877</polystring>
       </polyhotspot>
-      <polyhotspot title="" description="" id="Poly02" url="{node3}" target="0.0/0.0/90.0">
+      <polyhotspot title="" id="Poly02" url="{node3}" description="" target="0.0/0.0/90.0">
         <polystring>-155.665/8.36514|-149.229/10.7838|-150.436/-31.747|-155.866/-26.9093</polystring>
       </polyhotspot>
-      <polyhotspot title="" description="" id="Poly03" url="{node2}" target="0.0/0.0/90.0">
+      <polyhotspot title="" id="Poly03" url="{node2}" description="" target="0.0/0.0/90.0">
         <polystring>166.324/8.56656|156.268/14.4121|156.67/-29.9327|167.128/-23.0794</polystring>
       </polyhotspot>
-      <polyhotspot title="" description="" id="Poly04" url="{node1}" target="0.0/0.0/90.0">
+      <polyhotspot title="" id="Poly04" url="{node1}" description="" target="0.0/0.0/90.0">
         <polystring>12.4693/6.1479|-6.23448/5.7447|-5.63112/-16.8309|12.0672/-17.6371</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomout="0" enabled="1" type="diptocolor" blendtime="1" softedge="0" zoomfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000"/>
-    <autorotate speed="0.400" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" useanimation="0" delay="5.00"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control invertcontrol="1" contextfullscreen="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" hideabout="0" sensitivity="8" rubberband="0" invertwheel="0" contextprojections="0" simulatemass="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0"/>
+    <transition zoomin="0" zoomout="0" blendcolor="0x000000" zoomspeed="2" type="diptocolor" blendtime="1" zoomfov="20" enabled="1" softedge="0" zoomoutpause="1"/>
+    <autorotate useanimation="0" delay="5.00" nodefilter="" nodedelay="0.00" returntohorizon="0.000" startloaded="0" noderandom="1" enabled="1" speed="0.400"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="0" dblclickfullscreen="0" rubberband="0" lockedwheel="0" contextprojections="0" invertcontrol="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedkeyboard="0" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node3">
-    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="480" overlap="1" levelingpitch="0" height="480" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level width="480" height="480" predecode="1" preload="1"/>
+    <input overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" height="480" leveltilesize="510" levelingpitch="0" width="480" levelingroll="0">
+      <level preload="1" predecode="1" height="480" width="480"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="0" fov="90" tilt="0" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="90" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="270"/>
+      <start fov="90" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max scaletofit="1" fov="90" tilt="90" fovstereographic="270" pan="360" fovfisheye="360"/>
     </view>
-    <userdata author="" datetime="2021:08:30 14:48:18" source="" customnodeid="" title="thumbnail" description="" longitude="" copyright="" info="" latitude="" tags="" comment="" nodeid="node3" heading="0"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" enabled="0" width="180" textcolor="0x000000" backgroundcolor="0xffffff" border="1" textalpha="1" height="20" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" background="1" borderradius="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <polyhotspot title="" description="" id="Poly01" url="{node5}" target="0.0/0.0/90.0">
+    <userdata title="thumbnail" latitude="" description="" copyright="" nodeid="node3" customnodeid="" longitude="" info="" tags="" author="" datetime="2021:08:30 14:48:18" source="" comment="" heading="0"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" wordwrap="1" height="20" border="1" textcolor="0x000000" backgroundcolor="0xffffff" enabled="0" width="180" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <polyhotspot title="" id="Poly01" url="{node5}" description="" target="0.0/0.0/90.0">
         <polystring>-46.5383/12.0001|-67.6775/12.9474|-69.5707/-36.3157|-47.169/-35.3684</polystring>
       </polyhotspot>
-      <polyhotspot backgroundcolor="0x0000ff" title="" description="" id="Poly02" backgroundalpha="0.25098" borderalpha="1" url="{node4}" bordercolor="0x0000ff" target="0.0/0.0/90.0">
+      <polyhotspot title="" id="Poly02" url="{node4}" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" description="" backgroundcolor="0x0000ff" target="0.0/0.0/90.0">
         <polystring>30.1788/6.8994|15.1661/6.8994|-343.95/-26.61|-331.94/-25.77</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <image pan="-135.160" fov="7.080" tilt="-23.130" roty="5.000" width="700" rotz="3.000" clickmode="1" id="Element01" stretch="0.500" height="900" handcursor="0" rotx="15.000">
+      <image roty="5.000" clickmode="1" id="Element01" fov="7.080" tilt="-23.130" rotz="3.000" pan="-135.160" handcursor="0" rotx="15.000" height="300" stretch="0.500" width="500">
         <source url="media/Бейдж.jpg"/>
       </image>
-      <image pan="-173.240" fov="9.500" tilt="-23.430" roty="-17.000" width="700" rotz="0.000" clickmode="4" id="Element02" stretch="0.500" height="900" handcursor="0" rotx="3.000">
+      <image roty="-17.000" clickmode="4" id="Element02" fov="9.500" tilt="-23.430" rotz="0.000" pan="-173.240" handcursor="0" rotx="3.000" height="300" stretch="0.500" width="500">
         <source url="media/PolyJet.jpg"/>
       </image>
     </media>
-    <transition zoomout="0" enabled="1" type="diptocolor" blendtime="1" softedge="0" zoomfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000"/>
-    <autorotate speed="0.400" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" useanimation="0" delay="5.00"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control invertcontrol="1" contextfullscreen="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" hideabout="0" sensitivity="8" rubberband="0" invertwheel="0" contextprojections="0" simulatemass="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0"/>
+    <transition zoomin="0" zoomout="0" blendcolor="0x000000" zoomspeed="2" type="diptocolor" blendtime="1" zoomfov="20" enabled="1" softedge="0" zoomoutpause="1"/>
+    <autorotate useanimation="0" delay="5.00" nodefilter="" nodedelay="0.00" returntohorizon="0.000" startloaded="0" noderandom="1" enabled="1" speed="0.400"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="0" dblclickfullscreen="0" rubberband="0" lockedwheel="0" contextprojections="0" invertcontrol="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedkeyboard="0" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node5">
-    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="480" overlap="1" levelingpitch="0" height="480" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level width="480" height="480" predecode="1" preload="1"/>
+    <input overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" height="480" leveltilesize="510" levelingpitch="0" width="480" levelingroll="0">
+      <level preload="1" predecode="1" height="480" width="480"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="0" fov="90" tilt="0" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="90" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="270"/>
+      <start fov="90" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max scaletofit="1" fov="90" tilt="90" fovstereographic="270" pan="360" fovfisheye="360"/>
     </view>
-    <userdata author="" datetime="2021:08:30 14:29:16" source="" customnodeid="" title="thumbnail" description="" longitude="" copyright="" info="" latitude="" tags="" comment="" nodeid="node5" heading="0"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" enabled="0" width="180" textcolor="0x000000" backgroundcolor="0xffffff" border="1" textalpha="1" height="20" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" background="1" borderradius="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <polyhotspot title="" description="" id="Poly01" url="{node3}" target="0.0/0.0/90.0">
+    <userdata title="thumbnail" latitude="" description="" copyright="" nodeid="node5" customnodeid="" longitude="" info="" tags="" author="" datetime="2021:08:30 14:29:16" source="" comment="" heading="0"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" wordwrap="1" height="20" border="1" textcolor="0x000000" backgroundcolor="0xffffff" enabled="0" width="180" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <polyhotspot title="" id="Poly01" url="{node3}" description="" target="0.0/0.0/90.0">
         <polystring>-26.3891/9.47376|-42.516/8.98362|-42.8418/-28.7478|-26.7149/-29.5645</polystring>
       </polyhotspot>
-      <polyhotspot title="" description="" id="Poly02" url="{node4}" target="0.0/0.0/90.0">
+      <polyhotspot title="" id="Poly02" url="{node4}" description="" target="0.0/0.0/90.0">
         <polystring>-100.181/9.14706|-116.145/9.31032|-117.285/-28.5844|-101.484/-26.7876</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <image pan="-247.290" fov="9.730" tilt="-27.540" roty="-28.000" width="700" rotz="-17.000" clickmode="4" id="Element01" stretch="0.500" height="900" handcursor="0" rotx="0.000">
+      <image roty="-28.000" clickmode="4" id="Element01" fov="9.730" tilt="-27.540" rotz="-17.000" pan="-247.290" handcursor="0" rotx="0.000" height="300" stretch="0.500" width="500">
         <source url="media/KFpt.jpg"/>
       </image>
-      <image pan="-317.230" fov="13.990" tilt="-26.000" roty="-9.000" width="716" rotz="-9.000" clickmode="4" id="Element02" stretch="0.500" height="947" handcursor="0" rotx="6.000">
+      <image roty="-9.000" clickmode="4" id="Element02" fov="13.990" tilt="-26.000" rotz="-9.000" pan="-317.230" handcursor="0" rotx="6.000" height="300" stretch="0.500" width="500">
         <source url="media/Фрезер.jpg"/>
       </image>
     </media>
-    <transition zoomout="0" enabled="1" type="diptocolor" blendtime="1" softedge="0" zoomfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000"/>
-    <autorotate speed="0.400" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" useanimation="0" delay="5.00"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control invertcontrol="1" contextfullscreen="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" hideabout="0" sensitivity="8" rubberband="0" invertwheel="0" contextprojections="0" simulatemass="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0"/>
+    <transition zoomin="0" zoomout="0" blendcolor="0x000000" zoomspeed="2" type="diptocolor" blendtime="1" zoomfov="20" enabled="1" softedge="0" zoomoutpause="1"/>
+    <autorotate useanimation="0" delay="5.00" nodefilter="" nodedelay="0.00" returntohorizon="0.000" startloaded="0" noderandom="1" enabled="1" speed="0.400"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="0" dblclickfullscreen="0" rubberband="0" lockedwheel="0" contextprojections="0" invertcontrol="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedkeyboard="0" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node1">
-    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="480" overlap="1" levelingpitch="0" height="480" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level width="480" height="480" predecode="1" preload="1"/>
+    <input overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" height="480" leveltilesize="510" levelingpitch="0" width="480" levelingroll="0">
+      <level preload="1" predecode="1" height="480" width="480"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="0" fov="90" tilt="0" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="90" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="270"/>
+      <start fov="90" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max scaletofit="1" fov="90" tilt="90" fovstereographic="270" pan="360" fovfisheye="360"/>
     </view>
-    <userdata author="" datetime="2021:08:30 14:55:52" source="" customnodeid="" title="thumbnail" description="" longitude="" copyright="" info="" latitude="" tags="" comment="" nodeid="node1" heading="0"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" enabled="0" width="180" textcolor="0x000000" backgroundcolor="0xffffff" border="1" textalpha="1" height="20" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" background="1" borderradius="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <polyhotspot title="" description="" id="Poly01" url="{node4}" target="0.0/0.0/90.0">
+    <userdata title="thumbnail" latitude="" description="" copyright="" nodeid="node1" customnodeid="" longitude="" info="" tags="" author="" datetime="2021:08:30 14:55:52" source="" comment="" heading="0"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" wordwrap="1" height="20" border="1" textcolor="0x000000" backgroundcolor="0xffffff" enabled="0" width="180" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <polyhotspot title="" id="Poly01" url="{node4}" description="" target="0.0/0.0/90.0">
         <polystring>17.0042/10.2726|-6.28092/7.81938|-5.97456/-21.0051|-1.99152/-23.1516|17.9233/-23.4583</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <image pan="-79.910" fov="9.850" tilt="-10.660" roty="-30.000" width="500" rotz="0.000" clickmode="4" id="Element01" stretch="0.500" height="300" handcursor="0" rotx="0.000">
+      <image roty="-30.000" clickmode="4" id="Element01" fov="9.850" tilt="-10.660" rotz="0.000" pan="-79.910" handcursor="0" rotx="0.000" height="300" stretch="0.500" width="500">
         <source url="media/VR.jpg"/>
       </image>
-      <image pan="-22.260" fov="12.030" tilt="-11.980" roty="29.000" width="500" rotz="5.000" clickmode="4" id="Element02" stretch="0.500" height="300" handcursor="0" rotx="-9.000">
+      <image roty="29.000" clickmode="4" id="Element02" fov="12.030" tilt="-11.980" rotz="5.000" pan="-22.260" handcursor="0" rotx="-9.000" height="300" stretch="0.500" width="500">
         <source url="media/Пром диз.jpg"/>
       </image>
-      <image pan="-103.360" fov="6.970" tilt="-30.100" roty="0.000" width="500" rotz="0.000" clickmode="4" id="Element03" stretch="0.500" height="300" handcursor="0" rotx="0.000">
+      <image roty="0.000" clickmode="4" id="Element03" fov="6.970" tilt="-30.100" rotz="0.000" pan="-103.360" handcursor="0" rotx="0.000" height="300" stretch="0.500" width="500">
         <source url="media/Планшет.jpg"/>
       </image>
     </media>
-    <transition zoomout="0" enabled="1" type="diptocolor" blendtime="1" softedge="0" zoomfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000"/>
-    <autorotate speed="0.400" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" useanimation="0" delay="5.00"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control invertcontrol="1" contextfullscreen="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" hideabout="0" sensitivity="8" rubberband="0" invertwheel="0" contextprojections="0" simulatemass="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0"/>
+    <transition zoomin="0" zoomout="0" blendcolor="0x000000" zoomspeed="2" type="diptocolor" blendtime="1" zoomfov="20" enabled="1" softedge="0" zoomoutpause="1"/>
+    <autorotate useanimation="0" delay="5.00" nodefilter="" nodedelay="0.00" returntohorizon="0.000" startloaded="0" noderandom="1" enabled="1" speed="0.400"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="0" dblclickfullscreen="0" rubberband="0" lockedwheel="0" contextprojections="0" invertcontrol="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedkeyboard="0" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node2">
-    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="480" overlap="1" levelingpitch="0" height="480" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level width="480" height="480" predecode="1" preload="1"/>
+    <input overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" height="480" leveltilesize="510" levelingpitch="0" width="480" levelingroll="0">
+      <level preload="1" predecode="1" height="480" width="480"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="0" fov="90" tilt="0" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="90" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="270"/>
+      <start fov="90" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max scaletofit="1" fov="90" tilt="90" fovstereographic="270" pan="360" fovfisheye="360"/>
     </view>
-    <userdata author="" datetime="2021:08:30 14:52:13" source="" customnodeid="" title="thumbnail" description="" longitude="" copyright="" info="" latitude="" tags="" comment="" nodeid="node2" heading="0"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" enabled="0" width="180" textcolor="0x000000" backgroundcolor="0xffffff" border="1" textalpha="1" height="20" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" background="1" borderradius="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <polyhotspot title="" description="" id="Poly01" url="{node4}" target="0.0/0.0/90.0">
+    <userdata title="thumbnail" latitude="" description="" copyright="" nodeid="node2" customnodeid="" longitude="" info="" tags="" author="" datetime="2021:08:30 14:52:13" source="" comment="" heading="0"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" wordwrap="1" height="20" border="1" textcolor="0x000000" backgroundcolor="0xffffff" enabled="0" width="180" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <polyhotspot title="" id="Poly01" url="{node4}" description="" target="0.0/0.0/90.0">
         <polystring>-9.03816/8.73936|-33.2424/9.35262|-32.936/-25.6048|-10.5703/-24.3781</polystring>
       </polyhotspot>
     </hotspots>
-    <media/>
-    <transition zoomout="0" enabled="1" type="diptocolor" blendtime="1" softedge="0" zoomfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000"/>
-    <autorotate speed="0.400" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" useanimation="0" delay="5.00"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control invertcontrol="1" contextfullscreen="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" hideabout="0" sensitivity="8" rubberband="0" invertwheel="0" contextprojections="0" simulatemass="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0"/>
+    <media>
+      <image roty="0.000" clickmode="4" id="Element01" fov="16.180" tilt="9.260" rotz="0.000" pan="-46.000" handcursor="0" rotx="31.000" height="300" stretch="0.500" width="500">
+        <source url="media/it КВАНТУМ.jpg"/>
+      </image>
+      <image roty="0.000" clickmode="4" id="Element02" fov="8.230" tilt="5.610" rotz="0.000" pan="-356.700" handcursor="0" rotx="0.000" height="300" stretch="0.500" width="500">
+        <source url="media/Гео.jpg"/>
+      </image>
+      <image roty="0.000" clickmode="4" id="Element03" fov="9.620" tilt="-2.890" rotz="0.000" pan="-42.370" handcursor="0" rotx="0.000" height="300" stretch="0.500" width="500">
+        <source url="media/Коптер.jpg"/>
+      </image>
+    </media>
+    <transition zoomin="0" zoomout="0" blendcolor="0x000000" zoomspeed="2" type="diptocolor" blendtime="1" zoomfov="20" enabled="1" softedge="0" zoomoutpause="1"/>
+    <autorotate useanimation="0" delay="5.00" nodefilter="" nodedelay="0.00" returntohorizon="0.000" startloaded="0" noderandom="1" enabled="1" speed="0.400"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="0" dblclickfullscreen="0" rubberband="0" lockedwheel="0" contextprojections="0" invertcontrol="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedkeyboard="0" invertwheel="0" speedwheel="1"/>
   </panorama>
   <masternode>
-    <userdata author="" datetime="" source="" customnodeid="" title="" description="" longitude="" copyright="" info="" latitude="" tags="" comment="" nodeid="master" heading="0"/>
+    <userdata title="" latitude="" description="" copyright="" nodeid="master" customnodeid="" longitude="" info="" tags="" author="" datetime="" source="" comment="" heading="0"/>
   </masternode>
 </tour>
